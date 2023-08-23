@@ -1,0 +1,339 @@
+/* Section 2 */
+
+@media (width < 1400px) {
+  .section2 {
+    padding: 10rem 8rem;
+    gap: 10rem;
+  }
+}
+
+/* Section 1 */
+
+@media (width < 1311px) {
+  .s1_textDiv > p {
+    width: 90%;
+  }
+}
+
+/* Hero Section and Section 1 */
+
+@media (width < 1251px) {
+  .hSecText_div1 > h1 {
+    font-size: 8.8vw;
+  }
+
+  .hSecText_div2 > span {
+    font-size: 9.1vw;
+  }
+
+  .heroCircleEffect {
+    height: 145rem;
+    width: 145rem;
+    left: -50%;
+  }
+
+  .section1 {
+    padding: 2rem 4rem;
+  }
+}
+
+/* Section 1 and Section 2 */
+
+@media (width < 1104px) {
+  .section1 {
+    padding: 6rem 6rem;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .s1_textDiv {
+    width: 100%;
+  }
+
+  .s1_textDiv > h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .s1_videoDiv {
+    width: 100%;
+    order: 2;
+  }
+
+  .s1_videoDiv > video {
+    width: 100%;
+  }
+
+  .section2 {
+    margin-top: 27rem;
+  }
+}
+
+/* HeroSection and Section 2 */
+
+@media (width < 980px) {
+  .hSecText_header {
+    justify-content: center;
+  }
+
+  .hSecText_div1 {
+    justify-content: center;
+  }
+
+  .hSecText_div1 > h1 > div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .hSecText_div2 {
+    justify-content: center;
+  }
+
+  .heroCircleEffect {
+    height: 65rem;
+    width: 65rem;
+    top: -35%;
+    left: 45%;
+  }
+
+  .box4Bootstrap {
+    z-index: 3;
+  }
+
+  .box5Javascript {
+    z-index: 2;
+  }
+
+  .box6React {
+    z-index: 1;
+  }
+}
+
+/* HeroSection and Section 3 and Section 4 */
+
+@media (width < 960px) {
+  .heroCursorEffect,
+  .s4CursorEffect {
+    height: 80rem;
+    width: 80rem;
+  }
+
+  .section3 {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .s3Text {
+    width: 100%;
+    height: 20%;
+  }
+
+  .s3Text > h2 {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  .s3Text > h2 > span:nth-child(4) {
+    margin-left: 0rem;
+  }
+
+  .s3Projects {
+    width: 100%;
+    height: 80%;
+  }
+
+  .section4 {
+    padding: 6rem 1rem;
+    gap: 4rem;
+  }
+
+  .s4H2 {
+    margin-top: 0rem;
+  }
+
+  .s4FormContainer {
+    width: 90%;
+    min-height: 70rem;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+  }
+
+  .s4FormContainer > form {
+    width: 100%;
+    height: 62%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .contactInfo {
+    width: 100%;
+    height: 35%;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .contactInfoDiv1 {
+    margin-top: 3.5rem;
+  }
+
+  .contactInfoDiv2,
+  .contactInfoDiv3,
+  .contactInfoDiv4 {
+    margin-top: 2.5rem;
+  }
+}
+
+/* Section 2 */
+
+@media (width < 853px) {
+  .s2_header > h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* HeroSection */
+
+@media (width < 700px) {
+  .hSecText_div1 > h1 {
+    font-size: 11vw;
+  }
+
+  .hSecText_div2 > span {
+    font-size: 11vw;
+  }
+}
+
+/* HeroSection and Section 1 and Section 2 and Section 3 */
+
+@media (width < 601px) {
+  .heroCursorEffect,
+  .s4CursorEffect {
+    height: 60rem;
+    width: 60rem;
+  }
+
+  .section1 {
+    padding: 6rem 1rem;
+  }
+
+  .s1_textDiv > h2 {
+    font-size: 6.3rem;
+  }
+
+  .s1_videoDiv > video {
+    width: 140%;
+  }
+
+  .section2 {
+    margin-top: 31rem;
+    padding: 6rem 2rem;
+  }
+
+  .section3 {
+    gap: 5rem;
+    padding: 6rem 1rem;
+  }
+
+  .s3Projects {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .project {
+    height: auto;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+/* Section 4 */
+
+@media (width < 490px) {
+  .s3Text > h2 {
+    font-size: 14vw;
+    gap: 1rem;
+  }
+}
+
+/* HeroSection and Section 1 and Section 2 and Section 4 and Footer*/
+
+@media (width < 475px) {
+  .hSecText_header > span {
+    font-size: 3rem;
+  }
+
+  .hSecText_div1 > h1 {
+    font-size: 14vw;
+  }
+
+  .hSecText_div2 > span {
+    font-size: 14.5vw;
+  }
+
+  .s1_textDiv > p {
+    font-size: 2.15rem;
+    line-height: 3.8rem;
+  }
+
+  .section2 {
+    margin-top: 21rem;
+    padding: 6rem 0.5rem;
+  }
+
+  .s4H2 {
+    font-size: 5rem;
+  }
+
+  footer > span {
+    font-size: 2.5rem;
+  }
+}
+
+/* HeroSection and Section 1 */
+
+@media (width < 435px) {
+  .heroSection_texts {
+    padding: 2rem 0.5rem;
+  }
+
+  .heroSection {
+    padding: 0rem 1rem;
+  }
+
+  .section1 {
+    padding: 6rem 0.5rem;
+  }
+
+  .s1_textDiv > p {
+    line-height: 3.3rem;
+  }
+}
+
+/* Section 2 */
+
+@media (width < 407px) {
+  .s2_header > h2 {
+    font-size: 4rem;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+/* Section 2 */
+
+@media (width < 391px) {
+  .s2_techBoxes > div {
+    width: 100%;
+    padding: 1rem 0.5rem;
+  }
+}
